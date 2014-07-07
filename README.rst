@@ -27,4 +27,5 @@ Usage::
     ('b', 2)
 
 To test the code, run::
+
     $ nosetests
