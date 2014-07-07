@@ -180,8 +180,8 @@ class KeyHeap(MutableMapping):
         return new
 
     def _upper_eq(self, i, j):
-        """Return True if i is upper or equal to j. For min-heap,
-        upper=less; for max-heap upper=greater.
+        """Return True if i is upper than or equal to j.
+        For min-heap, upper=less; for max-heap upper=greater.
         """
         if self._is_min_heap:
             return i <= j
